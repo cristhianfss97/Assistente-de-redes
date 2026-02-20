@@ -1,0 +1,175 @@
+
+.rootpane{
+  -fx-background-color: linear-gradient(to bottom right, #071527, #0b2a4d);
+}
+
+.header{
+  -fx-background-color: rgba(255,255,255,0.06);
+  -fx-background-radius: 18;
+  -fx-border-radius: 18;
+  -fx-border-color: rgba(255,255,255,0.12);
+  -fx-border-width: 1;
+}
+
+.sidebar{
+  -fx-background-color: rgba(0,0,0,0.18);
+  -fx-background-radius: 18;
+  -fx-border-radius: 18;
+  -fx-border-color: rgba(255,255,255,0.10);
+  -fx-border-width: 1;
+}
+
+.h1{
+  -fx-text-fill: #eaf2ff;
+  -fx-font-size: 24px;
+  -fx-font-weight: 800;
+}
+.h2{
+  -fx-text-fill: #eaf2ff;
+  -fx-font-size: 16px;
+  -fx-font-weight: 800;
+}
+
+.navTitle{
+  -fx-text-fill: #b9c7dd;
+  -fx-font-weight: 700;
+  -fx-font-size: 12px;
+}
+
+.muted{
+  -fx-text-fill: #b9c7dd;
+  -fx-font-size: 12px;
+}
+
+.mono{
+  -fx-font-family: Consolas, "Cascadia Mono", monospace;
+}
+.monoStrong{
+  -fx-text-fill: #eaf2ff;
+  -fx-font-family: Consolas, "Cascadia Mono", monospace;
+  -fx-font-weight: 700;
+}
+
+.navBtn{
+  -fx-background-color: rgba(255,255,255,0.06);
+  -fx-text-fill: #eaf2ff;
+  -fx-background-radius: 14;
+  -fx-border-radius: 14;
+  -fx-border-color: rgba(255,255,255,0.10);
+  -fx-border-width: 1;
+  -fx-padding: 10 12;
+  -fx-font-weight: 700;
+  -fx-alignment: CENTER_LEFT;
+}
+.navBtn:selected{
+  -fx-background-color: rgba(46,154,255,0.22);
+  -fx-border-color: rgba(46,154,255,0.40);
+}
+
+.card{
+  -fx-background-color: rgba(255,255,255,0.06);
+  -fx-background-radius: 18;
+  -fx-border-radius: 18;
+  -fx-border-color: rgba(255,255,255,0.12);
+  -fx-border-width: 1;
+}
+
+.row{
+  -fx-background-color: rgba(0,0,0,0.18);
+  -fx-background-radius: 14;
+  -fx-border-radius: 14;
+  -fx-border-color: rgba(255,255,255,0.10);
+}
+
+.input{
+  -fx-background-color: rgba(0,0,0,0.22);
+  -fx-text-fill: #eaf2ff;
+  -fx-background-radius: 14;
+  -fx-border-radius: 14;
+  -fx-border-color: rgba(255,255,255,0.12);
+  -fx-padding: 10 12;
+}
+
+.output{
+  -fx-control-inner-background: #ffffff;
+  -fx-background-color: #ffffff;
+  -fx-text-fill: #111111;
+  -fx-highlight-fill: #cfe4ff;
+  -fx-highlight-text-fill: #111111;
+  -fx-font-family: Consolas, "Cascadia Mono", monospace;
+  -fx-background-radius: 18;
+  -fx-border-radius: 18;
+  -fx-border-color: rgba(255,255,255,0.10);
+  -fx-padding: 12;
+}
+
+.btn{
+  -fx-background-color: rgba(255,255,255,0.08);
+  -fx-text-fill: #eaf2ff;
+  -fx-background-radius: 14;
+  -fx-border-radius: 14;
+  -fx-border-color: rgba(255,255,255,0.14);
+  -fx-font-weight: 700;
+  -fx-padding: 10 12;
+}
+.btn-ghost{
+  -fx-background-color: transparent;
+  -fx-text-fill: #eaf2ff;
+  -fx-background-radius: 14;
+  -fx-border-radius: 14;
+  -fx-border-color: rgba(255,255,255,0.14);
+  -fx-font-weight: 700;
+  -fx-padding: 10 12;
+}
+.btn-primary{
+  -fx-background-color: rgba(46,154,255,0.22);
+  -fx-text-fill: #eaf2ff;
+  -fx-background-radius: 14;
+  -fx-border-radius: 14;
+  -fx-border-color: rgba(46,154,255,0.40);
+  -fx-font-weight: 800;
+  -fx-padding: 10 12;
+}
+.btn-success{
+  -fx-background-color: rgba(80,220,120,0.18);
+  -fx-text-fill: #eaf2ff;
+  -fx-background-radius: 14;
+  -fx-border-radius: 14;
+  -fx-border-color: rgba(80,220,120,0.35);
+  -fx-font-weight: 800;
+  -fx-padding: 10 12;
+}
+
+.tab-pane .tab-header-area .tab-header-background{
+  -fx-background-color: transparent;
+}
+.tab-pane .tab{
+  -fx-background-color: rgba(255,255,255,0.04);
+  -fx-background-radius: 14 14 0 0;
+  -fx-border-color: rgba(255,255,255,0.10);
+  -fx-border-width: 1;
+  -fx-border-radius: 14 14 0 0;
+}
+.tab-pane .tab:selected{
+  -fx-background-color: rgba(46,154,255,0.18);
+  -fx-border-color: rgba(46,154,255,0.35);
+}
+.tab-pane .tab-label{
+  -fx-text-fill: #eaf2ff;
+  -fx-font-weight: 700;
+}
+
+.table{
+  -fx-background-color: rgba(0,0,0,0.18);
+  -fx-background-radius: 18;
+  -fx-border-radius: 18;
+  -fx-border-color: rgba(255,255,255,0.10);
+}
+
+.sideScroll, .mainScroll {
+  -fx-background: transparent;
+  -fx-background-color: transparent;
+}
+.sideScroll > .viewport, .mainScroll > .viewport {
+  -fx-background-color: transparent;
+}
