@@ -46,7 +46,7 @@ public class AssistenteRedesApp extends Application {
     private TextArea output;
     private Label statusHost, statusIp, statusOs;
 
-    // Histórico
+    // Histórico.app
     private TableView<HistRow> historyTable;
     private ComboBox<String> historyAction;
     private TextField historySearch;
@@ -69,7 +69,7 @@ public class AssistenteRedesApp extends Application {
 
         root.setTop(buildHeader());
 
-        // Sidebar com rolagem (p/ telas menores)
+        // rolagem (p/ telas menores)
         ScrollPane sideScroll = new ScrollPane(buildSidebar());
         sideScroll.setFitToWidth(true);
         sideScroll.setHbarPolicy(ScrollPane.ScrollBarPolicy.NEVER);
@@ -133,7 +133,7 @@ public class AssistenteRedesApp extends Application {
         return header;
     }
 
-    // ---------------- SIDEBAR ----------------
+    //
     private VBox buildSidebar(){
         Label navTitle = new Label("Ferramentas");
         navTitle.getStyleClass().add("navTitle");
@@ -1020,7 +1020,7 @@ public class AssistenteRedesApp extends Application {
         });
     }
 
-    // ---------------- Histórico (carregar, exportar) ----------------
+    // Histórico (carregar, exportar) - Espero usar isso kkk
     private void refreshHistory(){
         if (historyTable == null) return;
 
