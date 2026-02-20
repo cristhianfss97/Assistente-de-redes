@@ -1,2 +1,2 @@
 # Assistente-de-redes
-Programa voltado a ajudar com comandos básicos em uma rede interna
+O Assistente de Redes é um aplicativo gráfico criado para técnicos, analistas de TI e profissionais de infraestrutura. Ele permite que esses usuários realizem diagnósticos rápidos e precisos, sem precisar usar comandos manuais em um terminal. O aplicativo reúne várias ferramentas de solução de problemas em um só lugar. Ele oferece execução paralela, histórico de testes e a opção de exportar relatórios.
