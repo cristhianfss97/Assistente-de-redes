@@ -1,0 +1,56 @@
+🚀 Lançamento: Assistente de Redes PRO (Desktop)
+
+Desenvolvi uma solução para otimizar o dia a dia de profissionais de TI, suporte técnico e infraestrutura: o Assistente de Redes PRO — uma ferramenta completa para diagnóstico e análise de redes, com interface moderna e execução simples (sem necessidade de instalação de dependências externas).
+
+🔧 Principais funcionalidades:
+
+🌐 IP Local e Público
+Identificação rápida do endereço IP da máquina e do IP externo da rede, facilitando diagnósticos iniciais e validações de conectividade.
+
+📡 Ping (ICMP)
+Verificação de latência e disponibilidade de hosts na rede, essencial para análise de conectividade.
+
+🧭 Traceroute
+Mapeamento do caminho percorrido pelos pacotes até o destino, permitindo identificar gargalos e falhas intermediárias.
+
+🔎 DNS Resolve (URL → IP)
+Conversão de domínios ou URLs (ex: https://empresa.com) em seus respectivos endereços IP, auxiliando na análise de resolução DNS e troubleshooting.
+
+🚪 Scan de Portas
+Verificação de portas abertas ou fechadas em um host, útil para validação de serviços ativos e análise de segurança básica.
+
+🧾 IPConfig /all
+Exibição completa das configurações de rede da máquina, incluindo adaptadores, gateways e DNS configurados.
+
+🧹 Flush DNS
+Limpeza do cache DNS local, frequentemente utilizada para resolver problemas de acesso a sites.
+
+🔁 Release/Renew IP
+Renovação do endereço IP junto ao servidor DHCP, útil em cenários de conflito ou falha de atribuição.
+
+🧩 Adaptadores de Rede
+Listagem detalhada das interfaces de rede, com status, velocidade e configurações.
+
+📒 Tabela ARP
+Visualização dos dispositivos mapeados na rede local (IP ↔ MAC).
+
+🔗 Netstat
+Monitoramento de conexões ativas e portas em uso na máquina.
+
+🗺️ Tabela de Rotas
+Análise das rotas configuradas no sistema operacional.
+
+📊 Uso de Rede
+Acompanhamento de tráfego (bytes enviados/recebidos), auxiliando em diagnósticos de consumo.
+
+💡 Diferenciais do projeto:
+✔ Interface moderna e intuitiva
+✔ Execução como aplicativo desktop (.exe)
+✔ Alta compatibilidade (sem dependência de runtime externo)
+✔ Foco em produtividade para profissionais de redes
+
+Caso tenham ideias, podem colocar por aqui, assim evoluimos juntos
+
+Obs: Programa desenvolvido junto a Inteligência Artificial
+
+#TI #Redes #Infraestrutura #SuporteTecnico #Network #CyberSecurity #Desenvolvimento #Python
